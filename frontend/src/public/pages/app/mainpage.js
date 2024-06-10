@@ -1,5 +1,7 @@
 class Permanent_Page {
 
+    html_code = {html: ""} //переменная для ссылки
+
     constructor() {
         this.container = document.querySelector(".content");
         this.body = document.body
@@ -7,18 +9,9 @@ class Permanent_Page {
     }
 
     render_page(class_page) {
-        this.page = new class_page();
-        const section = this.page.section;
-
-        const container_page = this.container.querySelector('section');
-        console.log(container_page)
-
-        if (container_page == null) {
-            this.container.appendChild(section);
-        }
-        else {
-            container_page.replaceWith(section)
-        }
+        this.page = new class_page(this.html_code);
+        
+        this.container.innerHTML = this.html_code.html
     }
 }
 
