@@ -1,0 +1,21 @@
+.brutal-home {
+    display: flex;
+    max-width: 1000px;
+    padding: 15px;
+    height: 200px;
+    justify-content: center;
+    color: rgb(222, 206, 206);
+    font-size: 25px;
+    font-family: "Montserrat";
+    background: rgba(0, 0, 0, 0.4);
+}
+
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    background: linear-gradient(rgba(0,0,0,0.3), #000000), url(../content/home_photo.png);
+    background-size: cover;
+}

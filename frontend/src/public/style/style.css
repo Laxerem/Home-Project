@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    background-color: black;
+    height: 10%;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+
+.homm {
+    font-family: "Montserrat";
+    font-weight: 450;
+    color: white;
+    font-size: 23px;
+    transition: 0.5s;
+}
+
+.catalog-item {
+    display: flex;
+    color: white;
+    border-bottom: 2px solid transparent;
+    font-size: 25px;
+    font-family: "Montserrat";
+    transition: 0.5s;
+}
+
+.catalog-item:hover {
+    color: blanchedalmond;
+    border-color: white;
+}
+
+.catalog {
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+    align-items: center;
+    color:aliceblue;
+}
+
+.logotype_HOME {
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.logo_HOME {
+    transition: 0.5s;
+}
+
+.logo_HOME:hover {
+    transform: scale(1) rotate(2.5deg);
+}
+
+.homm:hover {
+    color:beige;
+}
+
+body {
+    background-color: aliceblue;
+    margin: 0;
+}
+
+.content {
+    display: inline;
+}
+
+.error-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.4);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.sensors-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    background: white;
+    background-size: cover;
+}
+
+.error_not_sensor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    height: 100px;
+    width: 550px;
+    background: rgb(150, 150, 150)
+}
+
+.error_not_sensor_text {
+    font-family: "Montserrat";
+    font-size: 25px;
+}
