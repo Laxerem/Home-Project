@@ -12,11 +12,10 @@ class Temperature_Card {
         div_datchic_temperature.appendChild(h1_name_sensor);
         div_datchic_temperature.appendChild(temperature_indicator);
         temperature_indicator.appendChild(temperature);
-        
     }
 }
 
-class Temperature_section {
+class Temperature_container extends Temperature_Card {
     constructor() {
         const section_container = document.createElement('section');
         const div_temperature = document.createElement('div');
@@ -29,6 +28,12 @@ class Temperature_section {
         div_sensors.className  = "sensors";
 
         h1_zagolovok.innerText = "Датчики температуры"
+    }
+}
+
+class Temperature_section {
+    constructor() {
+        this.person_id
     }
 }
 
