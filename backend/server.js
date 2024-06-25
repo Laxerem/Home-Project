@@ -5,4 +5,4 @@ const app = express();
 
 app.use(express.json())
 app.use('/home_data', router);
-app.listen(3000);
+app.listen(5425);

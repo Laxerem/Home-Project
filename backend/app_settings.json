@@ -1,0 +1,9 @@
+{
+    "database": {
+        "user": "postgres",
+        "password": "misegr",
+        "host": "localhost",
+        "port": 5432,
+        "database": "home_users"
+    }
+}
