@@ -1,3 +1,5 @@
+--Структура базы данных
+
 create TABLE person (
     id SERIAL PRIMARY KEY,
     user_name VARCHAR(255) NOT NULL,
@@ -5,6 +7,7 @@ create TABLE person (
     ip_address VARCHAR(16)
 )
 
+ALTER TABLE person ADD UNIQUE (user_name); --ALTER TABLE: ИМЯ УНИКАЛЬНО!
 
 create TABLE sensor (
     id SERIAL PRIMARY KEY,
