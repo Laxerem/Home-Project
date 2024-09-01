@@ -9,9 +9,10 @@ class Permanent_Page {
     }
 
     render_page(class_page) {
-        this.page = new class_page(this.html_code);
-        
-        this.container.innerHTML = this.html_code.html
+        this.page = new class_page();
+        console.log(this.page.html)
+        this.container.innerHTML = this.page.html;
+        console.log(this.container)
     }
 }
 

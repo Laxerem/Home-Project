@@ -90,15 +90,6 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.sensors-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 90%;
-    background: white;
-    background-size: cover;
-}
-
 .error_not_sensor {
     display: flex;
     align-items: center;

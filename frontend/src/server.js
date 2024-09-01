@@ -8,5 +8,5 @@ app.use(express.static(staticPath));
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`Static server is running on http://localhost:${PORT}`);
-}); 
+    console.log(`Static server is running on http://localhost:${PORT}`);
+});

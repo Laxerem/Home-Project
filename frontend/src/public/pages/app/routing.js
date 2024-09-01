@@ -1,8 +1,10 @@
 import Home_Page from "../main/home.js"
+import Sensors_Page from "../sensors/sensors.js"
 import throw_error from "./error.js"
 
 const hash_key = {
-    "home": Home_Page
+    "home": Home_Page,
+    "sensors": Sensors_Page
 }
 
 class Router {

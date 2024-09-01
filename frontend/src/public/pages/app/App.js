@@ -1,5 +1,6 @@
 import Permanent_Page from "./mainpage.js"
 import Router from "./routing.js";
+import Sensor from "../sensors/sensors.js"
 
 class App {
 
@@ -16,4 +17,5 @@ class App {
     }
 }
 const app = new App();
+const sensor = new Sensor();
 app.run();

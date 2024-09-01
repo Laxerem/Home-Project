@@ -4,7 +4,7 @@ import load_style from "../modules/load_style.js";
 class Home_Page {
     center_text;
 
-    constructor(html_code) {
+    constructor() {
         load_style("home")
 
         this.section = document.createElement('section');
@@ -19,7 +19,7 @@ class Home_Page {
         
         update_day(this.center_text)
 
-        html_code.html = this.section.outerHTML;
+        this.html = this.section.outerHTML;
     }
 }
 
