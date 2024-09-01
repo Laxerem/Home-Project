@@ -21,7 +21,6 @@ class DataBase { //Методы этого класса возвращают Pro
                 
                 console.log("CREATE USER!", user);
                 pool.end();
-                res.end()
                 resolve(user);
             }, error => {
                 console.log("CREATE ERROR!", error.message);
@@ -41,7 +40,6 @@ class DataBase { //Методы этого класса возвращают Pro
                     const user = result.rows[0];
                     console.log("GET USER!", user);
                     db.end()
-
                     resolve(result.rows[0]);
                 }
                 else {

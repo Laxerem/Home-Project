@@ -1,7 +1,7 @@
 {
     "database": {
         "user": "postgres",
-        "password": "misegr",
+        "password": "HUALAX_HC200",
         "host": "localhost",
         "port": 5432,
         "database": "home_users"
